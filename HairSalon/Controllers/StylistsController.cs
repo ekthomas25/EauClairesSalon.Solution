@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Collections.Generic;
-using BestRestaurants.Models;
+using HairSalon.Models;
 
 namespace HairSalon.Controllers
 {
