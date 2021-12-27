@@ -1,0 +1,17 @@
+@model HairSalon.Models.Client;
+
+Edit: @Html.DisplayFor(model => model.Name)
+
+@using (Html.BeginForm())
+{
+  @Html.HiddenFor(model => model.ClientId)
+
+  @Html.LabelFor(model => model.Name)
+  @Html.TextBoxFor(model => model.Name, new {required = "required"})
+
+  @Html.LabelFor(model => model.Stylist)
+  @Html.DropDownList("StylistId")
+
+  <input type="submit" value="Save" class="btn btn-light" />
+
+}
