@@ -1,3 +1,62 @@
 body {
   background-color: rgb(255, 209, 216);
 }
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  font-size: 3em;
+}
+
+h2 {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+h3 {
+  font-family: serif;
+  font-style: oblique;
+  padding-left: 1em;
+  padding-top: .3em;
+}
+
+hr {
+  background-color: rgb(255, 255, 255);
+  height: 1px;
+  border: none;
+}
+
+a {
+  color: black;
+  padding: 1em;
+}
+
+p {
+  font-family: serif;
+  font-size: 1.4;
+}
+
+li {
+  font-family: serif;
+  font-size: 1.2em;
+}
+div#header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  padding: .6em;
+  margin-bottom: 2em;
+  background-color: cornsilk;
+  color: black;
+}
+
+.container {
+  background-color: rgb(255, 255, 246, .5);
+  margin-top: 7em;
+  margin-bottom: 3em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border-radius: 5px;
+}
