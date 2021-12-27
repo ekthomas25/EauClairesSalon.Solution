@@ -46,7 +46,7 @@ git clone https://github.com/ekthomas25/EauClairesSalon.Solution.git
   }
 }
 * _You will need to input your own password where it says_ [YOUR PASSWORD HERE]
-* _After you have completed the above, open MySQL Workbench and select Data Import/Restore from the Navigator/Administration Window, then select Import from Self-Contained File in Import Options. You will then select the New button under efault Schema to be imported. Enter the name of your database and click ok. Navigate to the Import Progress tab and click Start Import. You will need to click the refresh button for the database to show.
+* _After you have completed the above, open MySQL Workbench and select Data Import/Restore from the Navigator/Administration Window, then select Import from Self-Contained File in Import Options to import the included database. You will then select the New button under efault Schema to be imported. Enter the name of your database and click ok. Navigate to the Import Progress tab and click Start Import. You will need to click the refresh button for the database to show.
 * _Enter_ dotnet run _into the terminal and navigate to_ http://localhost:5000 _in the browser_
 
 
